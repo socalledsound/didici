@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react'
-import { useSelector } from 'react-redux';
-import { selectCurrentUser } from '../../features/user/userSlice'
+// import { useSelector } from 'react-redux';
+// import { selectCurrentUser } from '../../features/user/userSlice'
+import styles from './Header.module.css'
 const Header = () => {
 
     // const currentUser = useSelector(selectCurrentUser())
     const currentUser = false
 
     return ( 
-        <div>
+        <div className={styles.navWrapper}>
             <div>
                 home
             </div>

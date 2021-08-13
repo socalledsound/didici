@@ -26,3 +26,20 @@
   vertical-align: middle;
   margin-left: auto;
 }
+
+.rollButton {
+  width: 4rem;
+  height: 2rem;
+  background: #44c4e7;
+  color: #fff;
+
+  padding: 1.4rem;
+  margin-top: 1.2rem;
+  border: solid 0.1rem grey;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  text-align: center;
+  /* text-shadow: 0 1px 1px rgba(160, 160, 160, 0.75); */
+  vertical-align: middle;
+  margin-left: auto;
+}
